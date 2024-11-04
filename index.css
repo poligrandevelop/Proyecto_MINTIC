@@ -1,0 +1,99 @@
+/* Estilos generales para el contenedor principal */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 800px;
+    padding: 2rem;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.container h2 {
+    font-size: 2rem;
+    color: #343a40;
+    margin-bottom: 1.5rem;
+}
+
+/* Estilos para las columnas y los botones */
+.row {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.col-md-4 {
+    flex: 1;
+    max-width: 200px;
+}
+
+.col-md-4 a {
+    display: block;
+    padding: 0.75rem 1.5rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 50px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* Efectos de hover y focus */
+.col-md-4 a:hover {
+    background-color: #0056b3;
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.col-md-4 a:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column;
+    }
+}
+
+.dropdown-menu {
+    background-color: #ffffff; /* Fondo blanco para el menú */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.dropdown-item {
+    padding: 10px 15px; /* Espaciado interno */
+    color: #333; /* Color del texto */
+}
+
+.dropdown-item:hover {
+    background-color: #f8f9fa; /* Color de fondo al pasar el ratón */
+}
+
+.dropdown-divider {
+    border-top: 1px solid #e9ecef; /* Línea divisoria */
+}
+
+.dropdown-item.dropdown-toggle {
+    position: relative; /* Para el submenú */
+}
+
+.dropdown-item.dropdown-toggle:hover::after {
+    content: '▼'; /* Flecha para indicar que tiene un submenú */
+    position: absolute;
+    right: 10px;
+    font-size: 12px;
+    color: #6c757d;
+}

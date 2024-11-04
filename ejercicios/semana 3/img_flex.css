@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+
+
+}
+img{
+
+    aspect-ratio: 3/2;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="frontend/css/pag_inicial.css">
+    
+    <title>ANGULAR</title>
+</head>
+
+<body>
+    <main>
+        <a type="button" href="../../index.html" class="bg-info">VOLVER A SITIO WEB</a>
+        <h1>ANGULAR-NODE JS</h1>
+        <a class="nav-logo" href="frontend/src/login.html">
+            <div class="cubo" id="cubo">
+                <div class="cara cara-frontal"><img src="../../img/crescente3_sin_fondo.png" alt="logoCRESCENTE"></div>
+                <div class="cara cara-trasera"><img src="../../img/crescente3_sin_fondo.png" alt="logoCRESCENTE"></div>
+                <div class="cara cara-lateral-izquierda"><img src="../../img/crescente3_sin_fondo.png" alt="logoCRESCENTE"></div>
+                <div class="cara cara-lateral-derecha"><img src="../../img/crescente3_sin_fondo.png" alt="logoCRESCENTE"></div>
+                <div class="cara cara-superior"><img src="../../img/crescente3_sin_fondo.png" alt="logoCRESCENTE"></div>
+                <div class="cara cara-inferior"><img src="../../img/crescente3_sin_fondo.png" alt="logoCRESCENTE"></div>
+            </div>
+        </a>
+    </main>
+    <script>
+        const cubo = document.querySelector('.cubo');
+        const titulo = document.querySelector('h1');
+        
+        cubo.addEventListener('animationiteration', () => {
+            const tamañoCubo = parseInt(getComputedStyle(cubo).width);
+            const crecimiento = (tamañoCubo - 300) / 3; 
+            titulo.style.transform = `translateY(-${crecimiento}px) translateZ(80px)`;
+        });
+        
+    </script>
+</body>
+
+</html>

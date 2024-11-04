@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.texto {
+    text-align: center;
+}
+
+.box {
+    background-color: blue;
+    width: 100px;
+    padding: 10px;
+    margin: 50px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid red;
+}
+
+.link {
+    color: rgb(49, 51, 45);
+    background-color: rgb(20, 210, 220);
+    margin-bottom: 5%;
+    text-align: center;
+    display: block;
+    width: 200px;
+}
+
+.img-com {
+    width: 2%;
+    height: 22%;
+    border: 2px solid slateblue;
+    margin-bottom: 25%;
+    margin-left: 35%;
+
+}
+.bgimg {
+    background-image: url("https://johanycarlos.home.blog/wp-content/uploads/2019/01/depositphotos_67643805-stock-illustration-rock-music-concept.jpg?w=338");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 800px;
+    border: 25px solid slateblue;
+    margin-bottom:100%;
+    align-content: center;
+    padding: 10%;
+    color: rgb(6, 76, 37);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    text-shadow: 0 8px 0 #ce6969
+}

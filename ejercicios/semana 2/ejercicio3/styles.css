@@ -1,0 +1,16 @@
+h1{background-color: black;
+    color: aquamarine;
+    border: 6px solid blue;
+    text-align: center;
+}
+p{background-color: blueviolet;
+border: 6px solid black;
+}
+div{
+
+    background-color: chartreuse;
+    opacity: 0.5;   
+    font-family: cursive;
+    text-align: center;
+    
+}

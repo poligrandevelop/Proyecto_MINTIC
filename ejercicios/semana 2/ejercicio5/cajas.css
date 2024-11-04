@@ -1,0 +1,56 @@
+body{margin: 0;}
+.divClass{
+    margin: 14px;
+    height: min-content;
+    width: min-content;
+    background-color: cornflowerblue;
+    font-size: 40px;
+    padding: 16px;
+    border: 22px solid;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.caja1{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    padding: 50px;
+    background: lime;
+
+}
+.caja2{
+    width: 100px;
+    height: 100px;
+    margin: 200px;                               
+    background: lightblue;
+}
+[class*=stylcj]{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    text-align: center;
+}
+.stylcj-1{background:rgb(69, 149, 124);
+    border: 5px solid rgba(19, 16, 16, 0.514);
+    border-top-width: 50px;
+    border-left-style: dotted;
+    border-top-color: rgba(56, 216, 192, 0.593);
+}
+.stylcj-2{background:rgb(107, 243, 136);
+    border: 5px dashed rgb(21, 57, 69);
+    border-top-width: 50px;
+    border-top-color: rgba(0, 255, 221, 0.342);
+}
+.stylcj-3{background:cadetblue;
+    border: 5px solid rgb(72, 48, 95);
+    border-top-width: 50px;
+    border-top-color: rgba(0, 149, 255, 0.258);
+}
+.fond-img{
+    background-image: url('https://w7.pngwing.com/pngs/12/159/png-transparent-tasmanian-devil-taz-mania-taz-in-escape-from-mars-bugs-bunny-mega-drive-taz-mania-game-carnivoran-video-game-thumbnail.png');
+    max-width: 500px;
+    min-height: 400px;
+    border: dotted 8px rgb(39, 38, 37);
+    background-size: cover;
+    background-repeat: no-repeat;
+}

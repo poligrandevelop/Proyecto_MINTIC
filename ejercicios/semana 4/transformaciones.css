@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.transf1 {
+    background-color: blueviolet;
+    transform: scale(1);
+
+}
+
+.transf1:hover {
+    background-color: rgb(37, 50, 168);
+    transform: scale(3);
+
+}
+
+.transf2 {
+    background-color: blueviolet;
+    transform: rotate(80deg);
+
+}
+
+.transf2:hover {
+    background-color: rgb(39, 170, 137);
+    transform: rotate(250deg);
+
+}
+
+.transf3 {
+    background-color: blueviolet;
+    transform: translate(54px, 25px);
+}
+
+.transf3:hover {
+    background-color: rgb(54, 165, 44);
+    transform: translate(150px, 50px);
+}
+
+.transf4 {
+    background-color: blueviolet;
+    transform: skewY(25deg) skewX(16deg);
+}
+
+.transf4:hover {
+    background-color: rgb(17, 83, 44);
+    transform: skewY(30deg) skewX(22deg);
+
+}
+
+.transf5 {
+    background-color: rgb(193, 129, 51);
+    transform: scale(1) skewY(30deg) skewX(22deg) translate(80px, 25px);
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.transf5:hover {
+    background-color: rgb(39, 159, 8);
+    transform: scale(1) skewY(40deg) skewX(52deg) translate(89px, 56px);
+}

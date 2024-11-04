@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: black;
+        }
+        nav {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: rgb(231, 239, 239);
+            font-weight: 900;
+            background-color: black;
+            width: 100%;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: rgb(231, 239, 239);
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        iframe {
+            width: 100%;
+            height: calc(100vh - 50px);
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="pag1.html" target="cont">Página 1</a>
+        <a href="pag2.html" target="cont">Página 2</a>
+        <a href="pag3.html" target="cont">Página 3</a>
+        <a href="pag4.html" target="cont">Página 4</a>                                                           
+        <a href="pag5.html" target="cont">EMBEBIDOS</a>
+        <a href="pag6.html" target="cont">TABLAS</a>
+    </nav>
+    <iframe src="pag1.html" name="cont"></iframe>
+</body>
+</html>

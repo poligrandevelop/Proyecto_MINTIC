@@ -1,0 +1,46 @@
+body {
+    background-color: black;
+}
+
+#p_1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: aqua;
+    color: black;
+    opacity: inherit;
+    font-weight: 400;
+
+}
+
+.p_2 {
+    color: rgba(200, 20, 20, 0.3);
+    font-weight: 900;
+    font-display: initial;
+    font-style: oblique;
+    font: bold 20px/1 arial;
+    text-transform: uppercase;
+}
+
+.p_3 {
+    font-weight: bold;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 200px;
+    font: bold 80px/1 arial;
+    text-transform: uppercase;
+    color: #c69c1e;
+    font-size: x-large;
+    text-shadow: 0 3px 0 #8b6e15,
+        0 8px 0 #5f4b0e,
+        0 10px 0 #503f0c,
+        0 12px 0 #41330a;
+
+}
+
+.p_4 {
+    font-display: unset;
+    background-color: rgb(43, 167, 167);
+    font: bold 40px/1 arial;
+    text-transform: uppercase;
+    color: #c69c1e;
+    text-shadow: 0 12px 0 #41330a;
+}

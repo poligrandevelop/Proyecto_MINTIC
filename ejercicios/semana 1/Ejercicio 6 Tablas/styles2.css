@@ -1,0 +1,86 @@
+nav {
+    background-color: #2C3E50; /* Fondo oscuro elegante */
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end; /* Justifica los elementos a la derecha */
+}
+
+.nav-en:hover {
+    background-color: #1ABC9C; /* Verde claro para resaltar */
+}
+
+.nav-en {
+    background-color: #34495E; /* Color azul oscuro para los enlaces */
+    color: #ECF0F1; /* Texto claro */
+    padding: 0.5em 1em; /* Espaciado mejorado */
+    margin-right: 5px;
+    border-radius: 5px; /* Bordes redondeados para un diseño más suave */
+    text-decoration: none; /* Elimina el subrayado */
+    transition: background-color 0.3s ease; /* Transición suave */
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+aside {
+    width: 200px;
+    background-color: #6A9AB0;
+    padding: 10px;
+    color: #110b67;
+}
+
+aside li {
+    list-style: none;
+    font-weight: bolder;
+}
+
+main {
+    flex-grow: 1;
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+.p_4 {
+    background-color: rgba(43, 167, 167, 0.371);
+    font: 20px/2 arial;
+    text-transform: uppercase;
+    color: #090a0c;
+    text-shadow: 0 2px 0 #b5b5b5;
+}
+
+footer {
+    background-color: #001F3F;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+.back-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #2C3E50; /* Color de fondo del botón */
+    color: white; /* Color del texto */
+    text-decoration: none; /* Sin subrayado */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s ease; /* Transición suave */
+}
+
+.back-button:hover {
+    background-color: #1ABC9C; /* Color al pasar el ratón */
+}
+
+
+.linkedin-link {
+    color: white; /* Color del enlace */
+    text-decoration: none; /* Sin subrayado */
+}
+
+.linkedin-link:hover {
+    text-decoration: underline; /* Subrayado al pasar el ratón */
+}

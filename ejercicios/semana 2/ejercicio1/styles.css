@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+#parrafo {
+    border: solid blue;
+    color: chocolate;
+    font-size: 30px;
+    background-color: black;
+}
+
+.texto {
+    color: red;
+    border: black;
+}
+.pa{font-size: 30px;}
+
+h1 + h2{color: rgb(85, 55, 7);}
+
+h1,
+h2,
+p {
+    text-align: center;
+    font-size: 23px;
+    color: rgb(176, 49, 201);
+}
+
+.prueba {
+    color: blueviolet;
+    font-size: 25px;
+}
+
+[href] {
+    color: rgb(110, 6, 77);
+    
+}
+
+[href="#"] {
+    color: rgba(45, 106, 19, 0.87);
+    font-size: 32px;
+}
+h1{color: chocolate;}

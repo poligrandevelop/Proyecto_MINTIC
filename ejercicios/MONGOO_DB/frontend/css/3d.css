@@ -1,0 +1,82 @@
+.nav-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50%;
+    margin-top: 10%;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.cubo {
+    position: initial;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    animation: rotar 20s infinite backwards,trasladar 15s infinite alternate ease-in-out;
+}
+
+.cara {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background-color:beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(0, 0, 0);
+    
+}
+
+
+.cara-frontal {
+    transform: translateZ(25px);
+}
+
+.cara-trasera {
+    transform: rotateY(180deg) translateZ(25px);
+}
+
+.cara-lateral-izquierda {
+    transform: rotateY(-180deg) translateZ(25px);
+}
+
+.cara-lateral-derecha {
+    transform: rotateY(270deg) translateZ(25px);
+}
+
+.cara-superior {
+    transform: rotateX(90deg) translateZ(25px);
+}
+
+.cara-inferior {
+    transform: rotateX(-90deg) translateZ(25px);
+}
+
+@keyframes rotar {
+    0% {
+        transform: rotateX(0deg) rotateY(0deg);
+    }
+    100% {
+        transform: rotateX(360deg) rotateY(360deg);
+    }
+}
+
+@keyframes trasladar {
+    0% {
+        transform: translate(0, 0) rotateX(0deg) rotateY(0deg);
+    }
+    30% {
+        transform: translate(-35px, -35px) rotateX(90deg) rotateY(90deg);
+    }
+    50% {
+        transform: translate(-35px, 35px) rotateX(180deg) rotateY(180deg);
+    }
+    75% {
+        transform: translate(100px, 35px) rotateX(270deg) rotateY(270deg);
+    }
+    100% {
+        transform: translate(0, 0) rotateX(360deg) rotateY(360deg);
+    }
+}

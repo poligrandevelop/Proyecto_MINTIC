@@ -1,0 +1,202 @@
+.dotted {
+    border-style: dotted;
+    border-color: rgb(11, 24, 111) rgb(0, 255, 13) rgb(78, 55, 100) rgb(176, 63, 22);
+    color: blueviolet;
+    border-width: 5px 8px 4px 9px;
+    height: 50px;
+    text-align: center;
+    margin-top: 3px;
+}
+
+.dashed {
+    border-style: dashed;
+    border-color: brown black rgb(143, 23, 83) teal;
+    border-width: 5px 8px 4px 9px;
+    height: 50px;
+    text-align: center;
+    margin-top: 3px;
+}
+
+.solid {
+    border-style: solid;
+    border-color: rgb(11, 111, 13) blue blueviolet coral;
+    border-width: 5px 8px 4px 9px;
+    height: 50px;
+    text-align: center;
+    margin-top: 3px;
+}
+
+.double {
+    border-style: double;
+    border-color: rgb(11, 111, 13) blue blueviolet coral;
+    border-width: 5px 8px 4px 9px;
+    height: 50px;
+    text-align: center;
+    margin-top: 3px;
+}
+
+.none {
+    border-style: none;
+    background-color: rgba(125, 130, 210, 0.412);
+    color: black;
+    border-width: 5px 8px 4px 9px;
+    height: 50px;
+    text-align: center;
+    margin-top: 3px;
+}
+
+.grovee {
+    border-style: groove;
+    background-color: rgba(125, 130, 210, 0.412);
+    color: black;
+    border-width: 10px;
+    border-color: rgb(11, 111, 13) blue blueviolet coral;
+    border-width: 5px 8px 4px 9px;
+    height: 50px;
+    text-align: center;
+    margin-top: 3px;
+}
+
+.hidden {
+    border-style: hidden;
+    color: black;
+    background-color: aqua;
+    border-width: 15px;
+    border-color: rgb(61, 71, 40);
+    border-width: 5px 8px 4px 9px;
+    height: 50px;
+    text-align: center;
+    margin-top: 3px;
+}
+
+.initial {
+    border-style: initial;
+    border-color: brown;
+    border-width: 5px 8px 4px 9px;
+    height: 50px;
+    text-align: center;
+    margin-top: 3px;
+    background-color: lightyellow;
+
+}
+
+.inherit {
+    border-style: inherit;
+    border-color: brown;
+    border-width: 5px 8px 4px 9px;
+    height: 50px;
+    text-align: center;
+    margin-top: 3px;
+    background-color: lightgreen;
+}
+
+.inset {
+    border-style: inset;
+    border-color: rgb(11, 111, 13) blue blueviolet coral;
+    border-width: 5px 8px 4px 9px;
+    height: 50px;
+    text-align: center;
+    margin-top: 3px;
+
+}
+
+.outset {
+    border-style: outset;
+    border-color: rgb(11, 111, 13) blue blueviolet coral;
+    border-width: 5px 8px 4px 9px;
+    height: 50px;
+    text-align: center;
+    margin-top: 3px;
+
+}
+
+.ridge {
+    border-style: ridge;
+    border-color: rgb(11, 111, 13) blue blueviolet coral;
+    border-width: 5px 8px 4px 9px;
+    height: 50px;
+    text-align: center;
+    margin-top: 3px;
+
+}
+
+.unset {
+    border-style: unset;
+    border-color: brown;
+    border-width: 5px 8px 4px 9px;
+    height: 50px;
+    text-align: center;
+    margin-top: 3px;
+    background-color: lightpink;
+}
+
+.mix {
+    border-style: solid dashed dotted double;
+    border-color: rgb(28, 203, 203) rgb(37, 99, 37) rgb(20, 17, 177) rgba(122, 37, 126, 0.833);
+    border-width: 3px 6px 9px 12px;
+    background: rgba(127, 176, 255, 0.529) linear-gradient(to right, rgba(64, 69, 202, 0.8), rgba(24, 144, 163, 0.1));
+    background-blend-mode: multiply;
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+    text-align: center;
+    border-radius: 60% 20% 30% 30% / 30% 50% 30% 50%;
+    color: rgb(19, 26, 33);
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 10px 20px 3px rgba(13, 35, 38, 0.7);
+
+}
+
+/* margenes */
+.div_margin {
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(11, 111, 13) blue blueviolet coral;
+    padding: 20px;
+    margin: 20px;
+}
+
+p {
+    margin: 20px 30px 90px 40px;
+    border-style: solid dashed dotted double;
+    border-color: blue;
+}
+
+.wrapper {
+    font-size: 1em; 
+    border: 3px solid black; 
+    padding-left: 20%;
+}
+
+.px {
+    width: 200px;
+    align-items: center;
+    text-align: center;
+    color: blueviolet;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.vw {
+    width: 10vw;
+    align-items: center;
+    text-align: center;
+    color: coral;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.em {
+    width: 10em;
+    align-items: center;
+    text-align: center;
+    color: aquamarine;
+    font-size: 25px;
+    font-weight: 600;
+}

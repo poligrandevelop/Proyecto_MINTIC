@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DocumentoS Embebido</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../../css_principales/3d.css">
+    <link rel="stylesheet" href="../../css_principales/nav.css">
+    <link rel="stylesheet" href="../../css_principales/footer.css">
+</head>
+
+<body>
+    
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+            <div class="nav-left d-flex align-items-center">
+                <a class="nav-company-name navbar-brand text-white" href="../../index.html">CRESCENTE</a>
+                <span class="nav-company-slogan navbar-brand text-white">Impulsamos negocios, Conectamos
+                    soluciones</span>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="pdf-container" id="document">
+        <h1>Información adicional</h1>
+
+        <a href="https://github.com/poligrandevelop/Proyecto_MINTIC" class="git-button">
+            <h3>GIT</h3>
+        </a>
+    </section>
+        <h1>Visor de Documentos PDF</h1>
+
+        <section class="pdf-container" id="document">
+            <button class="nav-button" id="prev" onclick="prevDocument()">&#9664;</button>
+            <embed id="pdf-viewer" src="documentacion_proyecto_cyecom.pdf" class="pdf-viewer" type="application/pdf">
+            <button class="nav-button" id="next" onclick="nextDocument()">&#9654;</button>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <h3>Created by YGM</h3>
+        <h5>Búscame en:</h5>
+        <a href="https://www.linkedin.com/in/yecenia-gonz%C3%A1lez-moreno-744238120/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            class="linkedin-link">LinkedIn</a>
+    </footer>
+    <script src="document.js"></script>
+</body>
+
+</html>

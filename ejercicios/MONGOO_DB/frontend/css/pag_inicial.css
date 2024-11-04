@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20%;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    background-color: black; /* Fondo de la página negro */
+}
+
+h1 {
+    position: relative;
+    transition: transform 0.5s ease; /* Transición suave para mover el título */
+    z-index: 1; /* Asegura que el título esté encima del cubo */
+    color: white; /* Color del texto */
+    font-size: 3em; /* Tamaño del texto */
+    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.7); /* Sombra para dar efecto 3D */
+    transform: translateZ(50px); /* Efecto 3D en el título */
+}
+
+.nav-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    height: 100%;
+    width: 100%;
+}
+
+.cubo {
+    position: initial;
+    width: 200px; /* Tamaño inicial del cubo */
+    height: 200px; /* Tamaño inicial del cubo */
+    transform-style: preserve-3d;
+    animation: rotar 20s infinite backwards, trasladar 15s infinite alternate ease-in-out, crecer 15s infinite alternate ease-in-out; /* Agregando la animación de crecimiento */
+}
+
+.cara {
+    position: absolute;
+    width: 100%; /* Hacer que las caras ocupen el 100% del cubo */
+    height: 100%; /* Hacer que las caras ocupen el 100% del cubo */
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.cara img {
+    width: 100%; /* Ajustar imagen al tamaño de la cara */
+    height: auto; /* Mantener proporciones de la imagen */
+}
+
+.cara-frontal {
+    transform: translateZ(100px);
+}
+
+.cara-trasera {
+    transform: rotateY(180deg) translateZ(100px);
+}
+
+.cara-lateral-izquierda {
+    transform: rotateY(-90deg) translateZ(100px);
+}
+
+.cara-lateral-derecha {
+    transform: rotateY(90deg) translateZ(100px);
+}
+
+.cara-superior {
+    transform: rotateX(90deg) translateZ(100px);
+}
+
+.cara-inferior {
+    transform: rotateX(-90deg) translateZ(100px);
+}
+
+@keyframes rotar {
+    0% {
+        transform: rotateX(0deg) rotateY(0deg);
+    }
+    100% {
+        transform: rotateX(360deg) rotateY(360deg);
+    }
+}
+
+@keyframes trasladar {
+    0% {
+        transform: translate(0, 0) rotateX(0deg) rotateY(0deg);
+    }
+    30% {
+        transform: translate(-35px, -35px) rotateX(90deg) rotateY(90deg);
+    }
+    50% {
+        transform: translate(-35px, 35px) rotateX(180deg) rotateY(180deg);
+    }
+    75% {
+        transform: translate(100px, 35px) rotateX(270deg) rotateY(270deg);
+    }
+    100% {
+        transform: translate(0, 0) rotateX(360deg) rotateY(360deg);
+    }
+}
+
+@keyframes crecer {
+    0%, 100% {
+        width: 200px; /* Tamaño inicial */
+        height: 200px; /* Tamaño inicial */
+    }
+    50% {
+        width: 250px; /* Tamaño máximo al 50% de la animación */
+        height: 250px; /* Tamaño máximo al 50% de la animación */
+    }
+}

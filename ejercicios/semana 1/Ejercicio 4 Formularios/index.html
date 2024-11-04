@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body bgcolor="#1f618d">
+        <h1>FORMULARIO</h1>
+        <form action method="post"
+            class="display: inline-block; position: relative; padding: auto">
+            <fieldset style="background-color: aquamarine; border-bottom: 10%;">
+                <label>
+                    <label for="name" &#160;>Nombres</label>
+                    <input type="text" id="name" autofocus
+                        placeholder="Ingrese sus nombres" required>
+                    <br>
+                    <label for="lastname" &#160;>Apellido</label>
+                    <input type="text" id="lastname" required placeholder><br>
+
+                    <label for="phone" &#160;>Teléfono</label>
+                    <input type="number" id="phone" required placeholder><br>
+
+                    <label for="email" &#160;>Correo</label>
+                    <input type="email" id="email" required placeholder><br>
+
+                    <label for="pass" &#160;>Contraseña</label>
+                    <input type="password" id="pass" required placeholder><br>
+
+                    <label for="datetime">Hora local</label>
+                    <input type="datetime-local" id="datetime">
+
+                </label>
+            </fieldset><br><br>
+            <h2>Radio</h2>
+            <fieldset
+                style="background-color: rgb(127, 225, 255); border-bottom: 2%;">
+
+                <label for="radio">Masculino</label>
+                <input type="radio" name="radio"><br><label
+                    for="radio">Femenino</label>
+                <input type="radio" name="radio"><br><label for="radio">No
+                    responde</label>
+                <input type="radio" name="radio"><br>
+            </fieldset>
+            <br><br>
+            <h2>Selección lenguaje</h2>
+            <fieldset
+                style="border: 0;">
+                <select autofocus name="lenguaje"
+                    style="background-color: rgb(149, 134, 123); border-bottom: 2%;">
+                    <option></option>
+                    <option value="java">JAVA</option>
+                    <option value="python">PYTHON</option>
+                    <option value="php">PHP</option>
+                    <option value="html">HTML</option>
+                    <option value="css">CSS</option>
+                </select>
+            </fieldset><br>
+            <h2>Animales</h2><br>
+            <select autofocus="animals"
+                style="background-color: rgb(32, 218, 156); border-bottom: 2%;">
+                <optgroup label="aves">
+                    <option></option>
+                    <option value="loro">Loro</option>
+                    <option value="pinguino">Pingüino</option>
+                </optgroup>
+                <optgroup label="domesticos">
+                    <option></option>
+                    <option value="perro">Perro</option>
+                    <option value="gato">Gato</option>
+                </optgroup>
+                <optgroup label="acuaticos">
+                    <option></option>
+                    <option value="pato">Pato</option>
+                    <option value="ballena">Ballena</option>
+                </optgroup>
+            </select>
+            <input type="submit" name="send"
+                style="margin-top: 5%; background-color: lightseagreen; bottom:auto;">
+            <input type="reset" name="reset"
+                style="margin-top: 5%; background-color: lightsalmon; bottom:auto;"><br>
+
+            <h2>Seleccion de Navegadores por data lits</h2>
+
+            <fieldset>
+                <input type="list" list="browser">
+                <datalist id="browser" style="background-color: black; color: whitesmoke;">
+                    <option value="opera"></option>
+                    <option value="mozilla"></option>
+                    <option value="chrome"></option>
+                </datalist>
+            </fieldset>
+            
+        </form>
+    </body>
+</html>

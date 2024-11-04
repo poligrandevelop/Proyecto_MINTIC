@@ -1,0 +1,83 @@
+[
+    {
+        "Producto": "Sombrilla",
+        "Proveedor": "Umbrella",
+        "UnidadesDisponibles": 200,
+        "ubicacionAlmacen": "Almacen Principal",
+        "serial": "482FRG5F",
+        "fechaCompra": "11/17/2024"
+    },
+    {
+        "Producto": "Silla de Playa",
+        "Proveedor": "BeachChairs Inc.",
+        "UnidadesDisponibles": 150,
+        "ubicacionAlmacen": "Almacen Secundario",
+        "serial": "A53KLP9Q",
+        "fechaCompra": "11/15/2024"
+    },
+    {
+        "Producto": "Toalla de Playa",
+        "Proveedor": "Beach Essentials",
+        "UnidadesDisponibles": 300,
+        "ubicacionAlmacen": "Almacen Principal",
+        "serial": "T67ZXR3H",
+        "fechaCompra": "11/10/2024"
+    },
+    {
+        "Producto": "Sombra de Jardín",
+        "Proveedor": "Garden Shades",
+        "UnidadesDisponibles": 100,
+        "ubicacionAlmacen": "Almacen Principal",
+        "serial": "J82BNQ4D",
+        "fechaCompra": "11/05/2024"
+    },
+    {
+        "Producto": "Nevera Portátil",
+        "Proveedor": "Cooler Corp.",
+        "UnidadesDisponibles": 80,
+        "ubicacionAlmacen": "Almacen Secundario",
+        "serial": "C44KMU7Y",
+        "fechaCompra": "11/20/2024"
+    },
+    {
+        "Producto": "Sandalias",
+        "Proveedor": "Footwear Co.",
+        "UnidadesDisponibles": 250,
+        "ubicacionAlmacen": "Almacen Principal",
+        "serial": "S91PJY8X",
+        "fechaCompra": "11/22/2024"
+    },
+    {
+        "Producto": "Gafas de Sol",
+        "Proveedor": "Sunny Vision",
+        "UnidadesDisponibles": 180,
+        "ubicacionAlmacen": "Almacen Principal",
+        "serial": "G88NMD5J",
+        "fechaCompra": "11/25/2024"
+    },
+    {
+        "Producto": "Sombrero",
+        "Proveedor": "HatWorld",
+        "UnidadesDisponibles": 120,
+        "ubicacionAlmacen": "Almacen Secundario",
+        "serial": "H32TBF6M",
+        "fechaCompra": "11/30/2024"
+    },
+    {
+        "Producto": "Juegos de Playa",
+        "Proveedor": "Beach Fun Co.",
+        "UnidadesDisponibles": 90,
+        "ubicacionAlmacen": "Almacen Secundario",
+        "serial": "B51PZQ2W",
+        "fechaCompra": "11/12/2024"
+    },
+    {
+        "Producto": "Cámara de Acción",
+        "Proveedor": "Action Cam Co.",
+        "UnidadesDisponibles": 75,
+        "ubicacionAlmacen": "Almacen Principal",
+        "serial": "A75MDR8K",
+        "fechaCompra": "11/18/2024"
+    }
+]
+

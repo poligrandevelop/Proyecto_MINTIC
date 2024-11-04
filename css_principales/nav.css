@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#header {
+    display: flex;
+    align-items: center;
+    justify-content:baseline !important;
+    background-color:#001F3F !important;
+    padding: 10px;
+    position: fixed;
+    height: auto;
+    width: auto;
+    margin: 0;
+}
+
+.nav-logo {
+    max-width: 2%;
+    height: auto;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.nav-company-name {
+    color: #ECF0F1;
+    margin-left: 10px;
+    font-size: 1.8em;
+    padding: 0;
+}
+.nav-company-slogan{
+    font-size: 0.9em ;
+}
+
+.nav-en {
+    background-color: #34495E;
+    color: #ECF0F1;
+    padding: 0.5em 1em;
+    margin-left: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+.nav-li {
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+.nav-a {
+    background-color: #34495eb2;
+    color: #ECF0F1;
+    padding: 0.5em 1em;
+    margin-left: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+.nav-a:hover {
+    color: #0f1d2cd5 !important;
+    background-color: #ECF0F1;
+    padding: 0.5em 1em;
+    margin-left: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 900;
+    transition: background-color 0.3s ease;
+}
