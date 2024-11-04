@@ -12,6 +12,7 @@ exports.addTecnico = async (req, res) => {
         res.status(500).send('Error al agregar un Tecnico');
     }
 };
+
 // Función para buscar tecnicos
 exports.getTec = async (req, res) => {
     try {

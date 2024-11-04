@@ -13,4 +13,3 @@ app.use('/auth', authRoutes);
 mongoose.connect(process.env.MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true })
     .then(() => app.listen(3000, () => console.log('Servidor ejecutándose en puerto 3000')))
     .catch((err) => console.error('Error al conectar a MongoDB:', err));
-    

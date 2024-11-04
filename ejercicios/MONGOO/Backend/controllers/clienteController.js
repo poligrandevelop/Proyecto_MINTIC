@@ -13,6 +13,7 @@ exports.addClient = async (req, res) => {
     }
 };
 
+// Función para buscar clientes
 exports.getCli = async (req, res) => {
     try {
         const clientes = await Cliente.find();

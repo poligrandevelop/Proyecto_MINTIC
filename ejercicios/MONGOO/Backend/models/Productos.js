@@ -1,31 +1,30 @@
 const mongoose = require("mongoose");
 
-const clientesSchema = new mongoose.Schema({
-    nombres: {
+const productosSchema = new mongoose.Schema({
+    Producto: {
         type: String,
         required: true
     },
-    apellidos: {
+    Preoveedor: { 
         type: String,
         required: true
     },
-    documento: {
+    UnidadesDisponibles: {
         type: Number,
         required: true
     },
-    correo: {
+    ubicacionAlmacen: {
         type: String,
         required: true
     },
-    telefono: {
-        type: Number,
+    serial: {
+        type: String,
         required: true
     },
-    direccion: {
-        type: String,
+    fechaCompra: {
+        type: Date,
         required: true
     }
 }, { versionKey: false });
 
-module.exports = mongoose.model('Cliente', clientesSchema);
-
+module.exports = mongoose.model('Productos', productosSchema);

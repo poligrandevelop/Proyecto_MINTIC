@@ -16,3 +16,4 @@ app.use('/api/tecnicos', require('../routes/routesTec'));
 
 app.get('/', (req, res) => res.send('Hola Programador!'));
 app.listen(port, () => console.log(`El servidor se está conectando por el puerto ${port}!`));
+

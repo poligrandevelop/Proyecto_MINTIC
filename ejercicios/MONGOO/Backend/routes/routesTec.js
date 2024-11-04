@@ -21,4 +21,3 @@ router.put('/:id', tecnicoController.updateTecPut);
 router.delete('/:id', tecnicoController.deleteTec);
 
 module.exports = router;
-

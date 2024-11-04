@@ -6,12 +6,15 @@ exports.addUser = async (req, res) => {
     try {
         const { name, lastname, nickname, email, password, administracion, role } = req.body;
 
+        // Validación de entrada
         if (!name || !lastname || !nickname || !email || !password) {
             return res.status(400).send('Todos los campos son obligatorios');
         }
         const existingUser = await User.findOne({ $or: [{ nickname }, { email }] });
         if (existingUser) return res.status(400).send('El nickname o el email ya están en uso');
 
+
+        // Hashear la contraseña
         const hashedPassword = await bcrypt.hash(password, 12);
 
         const user = new User({

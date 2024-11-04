@@ -19,4 +19,5 @@ router.put('/:id', clienteController.updateCliPut);
 
 // Ruta para eliminar un cliente específico ( por ID)
 router.delete('/:id', clienteController.deleteCli);
+
 module.exports = router;

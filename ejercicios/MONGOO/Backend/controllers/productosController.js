@@ -24,6 +24,7 @@ exports.getProduc = async (req, res) => {
         res.status(500).send('Error al traer los productos');
     }
 };
+
 // Función para buscar productos por id
 exports.getAProduc = async (req, res) => {
     try {
