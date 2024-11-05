@@ -1,5 +1,9 @@
 // Lista de documentos PDF
 const documents = [
+    'desbliegue_backend.png',
+    'index.png',
+    'login.png',
+    'frontend_despliegue.png',
     'documentacion_proyecto_cyecom.pdf',
     'Backend.pdf',
     'moc.mp4'
